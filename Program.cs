@@ -25,7 +25,7 @@ namespace Lesson2
             }
             else
             {
-                return (double)((Math.Cos(x) * Math.Cos(x)) / resultSin - x * y * z + (a * x * x + b * x + c) / resultDrob);
+                return Math.Cos(x) * Math.Cos(x) / resultSin - x * y * z + (a * x * x + b * x + c) / resultDrob;
             }
         }
     }
